@@ -47,15 +47,18 @@ The 'scripts' directory contains several jupyter lab Python and R scripts for ru
 
 The scripts found in this repository are the following:
 
+>neural_net_h2o.ipynb
+
+This scripts takes in the training data and trains the neural network regression model to predict changes in aortic valve area on the test sets.
 
 
+>combine_all_predicted_values.ipynb
 
->Figure1B_PCA.R
+This script reads in all the individual predicted changes in aortic valve area and combines them into one dataframe to use in the scatter plot.
 
-This script takes the quantile normalized data and first runs an ANOVA test to find features (i.e., autoantibodies) that
-have statistically significant variance across study groups. If the *P*-value is less than 0.05, then the feature 
-is considered to be statistically significant. Only the significant features are used to project autoantibody profiles onto the
-principal component analysis (PCA) ordination plot.
+>actual_vs_predicted_scatterplot.ipynb
+
+This script takes the actual changes in aortic valve area and the predicted changes in aortic valve area from the neural network regression model. This script makes a scatter plot of the actual changes in aortic valve area and the predicted changes in aortic valve area.
 
 
 
