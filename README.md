@@ -37,6 +37,10 @@ This holds the 23 training sets for the neural network regression model. Each fi
 
 This holds the 23 tests sets for the neural network regression model. Each file has 1 sample to test.
 
+>acutal_vs_predicted
+
+This hold the results from the neural network regression model as "actual" values and "predicted" values. These values are used to make a scatter plot.
+
 # Description of scripts
 
 The 'scripts' directory contains several jupyter lab Python and R scripts for running the analysis pipelines of this project. Each script calls local data from the 'data' directory. All results used to generate the main text's display items are automatically exported into the 'output' directory.
