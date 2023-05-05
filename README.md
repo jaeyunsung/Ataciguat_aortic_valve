@@ -61,6 +61,4 @@ principal component analysis (PCA) ordination plot.
 
 # Running the scripts
 
-Example of how to run a script in the terminal command line:
-
-> Rscript differentially_abundant.R
+Jupyter lab notebooks are run similar to an R markdown file. Each cell contains a section of code to run.
