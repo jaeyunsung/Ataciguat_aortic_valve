@@ -61,7 +61,7 @@ This R script takes the actual changes in aortic valve area and the predicted ch
 
 # Output
 
-This directory contains the output from the neural network regression model for predicting changes in aortic valve area.
+This directory contains the output from the neural network regression model for predicting changes in aortic valve area. The features of importance are found here from the neural network regression model as well as the scatter plot of actual changes in aortic valve area compared to predicted changes.
 
 # Running the scripts
 
