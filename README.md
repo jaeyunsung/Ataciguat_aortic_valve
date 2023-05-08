@@ -25,19 +25,17 @@ numpy
 
 The 'data' directory contains the following input files for the analysis pipelines of this project:
 
+>delta_area_for_regression.csv
 
 Study participants baseline variables (treatment, sex, measurements from blood tests and echocardiograms)
 
->delta_area_for_regression.csv
+>train
 
 This holds the 23 training sets for the neural network regression model. Each file has 22 sample to use to train the model.
 
->train
-
-This holds the 23 tests sets for the neural network regression model. Each file has 1 sample to test.
-
 >test
 
+This holds the 23 tests sets for the neural network regression model. Each file has 1 sample to test.
 
 # Description of scripts
 
@@ -45,18 +43,19 @@ The 'scripts' directory contains several jupyter lab Python and R scripts for ru
 
 The scripts found in this repository are the following:
 
-This python scripts takes in the training data and trains the neural network regression model to predict changes in aortic valve area on the test sets.
-
 >neural_net_h2o.ipynb
 
-This python script reads in all the individual predicted changes in aortic valve area and combines them into one dataframe to use in the scatter plot.
-
+This python scripts takes in the training data and trains the neural network regression model to predict changes in aortic valve area on the test sets.
 
 >combine_all_predicted_values.ipynb
 
-This R script takes the actual changes in aortic valve area and the predicted changes in aortic valve area from the neural network regression model. This script makes a scatter plot of the actual changes in aortic valve area and the predicted changes in aortic valve area.
+This python script reads in all the individual predicted changes in aortic valve area and combines them into one dataframe to use in the scatter plot.
 
 >actual_vs_predicted_scatterplot.ipynb
+
+This R script takes the actual changes in aortic valve area and the predicted changes in aortic valve area from the neural network regression model. This script makes a scatter plot of the actual changes in aortic valve area and the predicted changes in aortic valve area.
+
+
 
 
 # Output
