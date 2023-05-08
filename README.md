@@ -60,8 +60,10 @@ This script reads in all the individual predicted changes in aortic valve area a
 
 This script takes the actual changes in aortic valve area and the predicted changes in aortic valve area from the neural network regression model. This script makes a scatter plot of the actual changes in aortic valve area and the predicted changes in aortic valve area.
 
+# Output
 
+This directory contains the output from the neural network regression model for predicting changes in aortic valve area.
 
 # Running the scripts
 
-Jupyter lab notebooks are run similar to an R markdown file. Each cell contains a section of code to run.
+Jupyter lab notebooks are run similar to an R markdown file. Each cell contains a section of code to run. There are both Python and R notebooks included in the scripts directory.
