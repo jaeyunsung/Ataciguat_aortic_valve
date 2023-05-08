@@ -25,21 +25,19 @@ numpy
 
 The 'data' directory contains the following input files for the analysis pipelines of this project:
 
->delta_area_for_regression.csv
 
 Study participants baseline variables (treatment, sex, measurements from blood tests and echocardiograms)
 
->train
+>delta_area_for_regression.csv
 
 This holds the 23 training sets for the neural network regression model. Each file has 22 sample to use to train the model.
 
->test
+>train
 
 This holds the 23 tests sets for the neural network regression model. Each file has 1 sample to test.
 
->acutal_vs_predicted
+>test
 
-This hold the results from the neural network regression model as "actual" values and "predicted" values. These values are used to make a scatter plot.
 
 # Description of scripts
 
